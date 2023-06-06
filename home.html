@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ án thiết kế Web</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header design -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo" id="logo"><img src="image/logo/logo.png" alt=""></div>
+            <nav class="navbar" id="navbar">
+                <div class="container">
+                    <ul>
+                        <li class="nav-item"><a href="home.html">Trang chủ</a></li>
+                        <li class="nav-item"><a href="introduce.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a href="#menu_mid">Menu</a></li>
+                        <li class="nav-item"><a href="#">Món ăn nổi bật</a></li>
+                        <li class="nav-item"><a href="#">Tin tức</a></li>
+                        <li class="nav-item"><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="btn-box">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <div class="header-content">
+                                <p>tìm kiếm món ăn của bạn</p>
+                                <div class="input">
+                                    <input type="text" class="my-input" placeholder="Nhập tên món ăn..." >
+                                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </div>                 
+                            </div>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li class="user">
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <ul class="nav-second">
+                                <li><a href="login.html">Đăng nhập</a></li>
+                                <li><a href="register.html">Đăng ký</a></li>
+                                <li><a href="#">Món ăn yêu thích</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+                    </ul>                     
+                    <button class="btn-header">Đặt bàn</button>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <!-- section slide design -->
+    <section class="slide" id="slide">
+        <div class="container">
+            <img src="image/background/bg1.jpg" alt="">
+            <div class="content-slider">
+                <span class="title">Dola Restaurant</span>
+                <span class="content">Món ăn đa dạng</span>
+                <a href="#">ĐẶT BÀN NGAY</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section about design -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content-left">
+                <span class="title-small">Về chúng tôi</span>
+                <span class="title">Dola Restaurant</span>
+                <span class="content">Nhà hàng chúng tôi luôn luôn đặt khách hàng lên hàng đầu, tận tâm phục vụ, mang lại cho khách hàng những trãi nghiệm tuyệt với nhất. Các món ăn với công thức độc quyền sẽ mang lại hương vị mới mẻ cho thực khách. Dola Restaurant xin chân thành cảm ơn.</span>
+                <div class="button-block">
+                    <span class="button-line-left"></span>
+                    <span class="button-text">Xem thêm</span>
+                    <span class="button-line-right"></span>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <img src="image/background/about_image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- section outstanding food design -->
+    <section class="menu_top" id="menu_top">
+        <div class="container">
+            <div class="title">
+                <h2>Danh mục nổi bật</h2>
+            </div>
+
+            <div class="swiper-wrapper">
+                <div class="item">
+                    <a href="#">
+                        <div class="image">
+                            <img src="image/products/beef.jpg" alt="">
+                        </div>
+                        <h4 class="title">Món bò</h4>
+                        <span class="content">Các món bò được chế biến tinh tế với hương vị đặc biệt nhất</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="image">
+                            <img src="image/products/chicken.jpg" alt="">
+                        </div>
+                        <h4 class="title">Món gà</h4>
+                        <span class="content">Các món gà được chế biến tinh tế với hương vị đặc biệt nhất</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="image">
+                            <img src="image/products/pork.jpg" alt="">
+                        </div>
+                        <h4 class="title">Món heo</h4>
+                        <span class="content">Các món heo được chế biến tinh tế với hương vị đặc biệt nhất</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="image">
+                            <img src="image/products/fish.jpg" alt="">
+                        </div>
+                        <h4 class="title">Món cá</h4>
+                        <span class="content">Các món cá được chế biến tinh tế với hương vị đặc biệt nhất</span>
+                    </a>
+                </div>
+            </div>
+            <div class="btn-category">
+                <span class="btn-item"></span>
+                <span class="btn-item"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- section products design -->
+    <section class="menu_mid" id="menu_mid">
+        <div class="container">
+            <div class="title">
+                <h2>Thực đơn của chúng tôi</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="item"><a href="#">Khai vị</a></li>
+                <li class="item"><a href="#">Món chính</a></li>
+                <li class="item"><a href="#">Canh - Tiềm - Súp</a></li>
+                <li class="item"><a href="#">Cơm - mì - cháo</a></li>
+                <li class="item"><a href="#">Bánh tráng miệng</a></li>
+                <li class="item"><a href="#">Đồ uống</a></li>
+            </ul>
+
+            <div class="card-box">
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/1.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Salad rau mùa sốt cam</a>
+                        <div class="price-box">
+                            <span class="price">68.000đ</span>
+                            <span class="compare-price">70.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="1">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/2.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Salad rau mùa sốt mác..</a>
+                        <div class="price-box">
+                            <span class="price">68.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="2">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/3.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Phở cuốn</a>
+                        <div class="price-box">
+                            <span class="price">82.000đ</span>
+                            <span class="compare-price">92.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="3">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/4.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Gỏi tai heo hoa chuối</a>
+                        <div class="price-box">
+                            <span class="price">125.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="4">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/5.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Gà cuốn lá dứa</a>
+                        <div class="price-box">
+                            <span class="price">168.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="5">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/6.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Ức gà đút lò phủ lá chanh</a>
+                        <div class="price-box">
+                            <span class="price">185.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="6">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/7.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Sụn gà xóc muối Tây</a>
+                        <div class="price-box">
+                            <span class="price">135.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="7">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/8.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Nem lụi nướng mía</a>
+                        <div class="price-box">
+                            <span class="price">158.000đ</span>
+                            <span class="compare-price">170.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="8">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/9.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Phì spaghetti sốt kem nấm</a>
+                        <div class="price-box">
+                            <span class="price">99.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="9">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                       <img src="image/products/10.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Cơm chiên hải sản</a>
+                        <div class="price-box">
+                            <span class="price">89.000đ</span>
+                            <span class="compare-price">99.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="10">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section featured dishes design -->
+    <section class="menu_bottom" id="menu_bottom">
+        <div class="container">
+            <div class="title-index">
+                <h2><a href="#">Món ăn nổi bật</a></h2>
+            </div>
+            <div class="wrapper">
+                <div class="items">
+                    <a href="#">
+                       <img src="image/products/1.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Salad rau mùa sốt cam</a>
+                        <div class="price-box">
+                            <span class="price">68.000đ</span>
+                            <span class="compare-price">70.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="1">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <a href="#">
+                       <img src="image/products/2.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Salad rau mùa sốt mác..</a>
+                        <div class="price-box">
+                            <span class="price">68.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="2">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <a href="#">
+                       <img src="image/products/3.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Phở cuốn</a>
+                        <div class="price-box">
+                            <span class="price">82.000đ</span>
+                            <span class="compare-price">92.000đ</span>
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="3">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <a href="#">
+                       <img src="image/products/4.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Gỏi tai heo hoa chuối</a>
+                        <div class="price-box">
+                            <span class="price">125.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="4">Xem chi tiết</a>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <a href="#">
+                       <img src="image/products/5.jpg" alt=""> 
+                    </a>
+                    <div class="product-info">
+                        <a href="#" class="product-name">Gà cuốn lá dứa</a>
+                        <div class="price-box">
+                            <span class="price">168.000đ</span>
+                            <!-- <span class="compare-price">70.000</span> -->
+                        </div>
+                    </div>
+                    <div class="btn-card">
+                        <a href="#" class="btn-more" data-product-id="5">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section banner design -->
+    <section class="banner" id="banner">
+        <div class="container">
+            <div class="banner-item">
+                <img src="image/banner/banner1.jpg" alt="">
+                <div class="content">
+                    <a href="#">
+                        <span class="title1">Dola Restaurant</span>
+                        <span class="title2">Món ăn đa dạng</span>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="banner-item">
+                <img src="image/banner/banner2.jpg" alt="">
+                <div class="content">
+                    <a href="#">
+                        <span class="title1">Dola Restaurant</span>
+                        <span class="title2">Hương vị đặc biệt</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="banner-item">
+                <img src="image/banner/banner3.jpg" alt="">
+                <div class="content">
+                    <a href="#">
+                        <span class="title1">Dola Restaurant</span>
+                        <span class="title2">Công thức độc quyền</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="banner-item">
+                <img src="image/banner/banner4.jpg" alt="">
+                <div class="content">
+                    <a href="#">
+                        <span class="title1">Dola Restaurant</span>
+                        <span class="title2">Đảm bảo chất lượng</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- section num design -->
+    <section class="section-num" id="num">
+        <div class="container">
+            <div class="item">
+                <img src="image/icon/thong_ke1.jpg" alt="">
+                <div class="content">
+                    <span class="num">                   
+                        <span class="counter">8+</span>                  
+                    </span>
+                    <span class="title">Cửa hàng</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/icon/thong_ke2.jpg" alt="">
+                <div class="content">
+                    <span class="num">                   
+                        <span class="counter">200+</span>                  
+                    </span>
+                    <span class="title">Nhân viên</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/icon/thong_ke3.jpg" alt="">
+                <div class="content">
+                    <span class="num">                   
+                        <span class="counter">5000+</span>                  
+                    </span>
+                    <span class="title">Khách hàng</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/icon/thong_ke4.jpg" alt="">
+                <div class="content">
+                    <span class="num">                   
+                        <span class="counter">50+</span>                  
+                    </span>
+                    <span class="title">Món ăn</span>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- section blog design -->
+    <section class="section_blog" id="section_blog">
+        <div class="container">
+            <div class="title-index">
+                <h2><a href="#">Tin tức</a></h2>
+            </div>
+
+            <div class="wrapper">
+                <div class="item-blog">
+                    <div class="blog-thumb">
+                        <div class="time-post">6/01/2023</div>
+                        <a href="#" class="thumb"><img src="image/background/canh-ca-nau-me-2-7edb.jpg" alt=""></a>
+                    </div>
+                    
+                    <div class="block-content">
+                        <div class="time-post">
+                            <span>Đăng bởi: Admin Dola</span>
+                        </div>
+                        <a href="#">Mách bạn công thức làm canh cá nấu mẻ thơm ngon đậm vị</a>
+                        <p>Canh cá nấu mẻ&nbsp;là món ăn dân dã, quen thuộc trong mỗi mâm cơm gia đình Việt. Mùa hè nắng...</p>
+                        <div class="button-block">
+                            <span class="button-line-left"></span>
+                            <span class="button-text">Xem thêm</span>
+                            <span class="button-line-right"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-blog">                   
+                    <div class="block-content">
+                        <div class="time-post">
+                            <span>Đăng bởi: Admin Dola</span>
+                        </div>
+                        <a href="#">Tuyển tập 8 món xào đơn giản, tiết kiệm thời gian cho chị em</a>
+                        <p>Cùng Bếp nhà Dola khám phá công thức làm 8 món xào đơn giản, nhanh gọn trong bài viết dưới đây...</p>
+                        <div class="button-block">
+                            <span class="button-line-left"></span>
+                            <span class="button-text">Xem thêm</span>
+                            <span class="button-line-right"></span>
+                        </div>
+                    </div>
+                    <div class="blog-thumb">
+                        <div class="time-post">6/01/2023</div>
+                        <a href="#" class="thumb"><img src="image/background/dua-xao-long-me-ga-3b27.jpg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="item-blog">
+                    <div class="blog-thumb">
+                        <div class="time-post">6/01/2023</div>
+                        <a href="#" class="thumb"><img src="image/background/kheo-leo-co-meo-nau-an-de-co-bua.jpg" alt=""></a>
+                    </div>
+                    
+                    <div class="block-content">
+                        <div class="time-post">
+                            <span>Đăng bởi: Admin Dola</span>
+                        </div>
+                        <a href="#">1001 món ngon mỗi ngày - Giải quyết vấn đề"Hôm nay ăn gì?"</a>
+                        <p>Bữa sáng là một trong những bữa ăn quan trọng trong ngày, giúp cung cấp năng lượng.</p>
+                        <div class="button-block">
+                            <span class="button-line-left"></span>
+                            <span class="button-text">Xem thêm</span>
+                            <span class="button-line-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section review design -->
+    <section class="review" id="review">
+        <div class="container">
+            <div class="swiper-wrapper">
+                <div class="review-item">
+                    <div class="info">
+                        <img src="image/avata/danhgia_1.jpg" alt="">
+                        <div class="name">
+                            <h5>Hoàng Dung</h5>
+                            <span>Nhân viên văn phòng</span>
+                        </div>
+                        <div class="icon"><i class="fa-solid fa-quote-right"></i></div>
+                    </div>
+
+                    <div class="content">
+                        <p>Món ăn ở đây hầu hết đều rất ngon, khẩu vị phù hợp với tôi, tôi sẽ luôn ủng hộ nhà hàng Dola Restaurant</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="btn-review">
+                <button class="btn-item"></button>
+                <button class="btn-item"></button>
+                <button class="btn-item"></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="info">
+                <div class="logo">
+                    <img src="image/logo/logo.png" alt="">
+                </div>
+                <div class="ft-description">
+                    Nhà hàng chúng tôi luôn luôn đặt khách hàng lên hàng đầu, tận tâm phục vụ, mang lại cho khách hàng những trãi nghiệm tuyệt với nhất. Các món ăn với công thức độc quyền sẽ mang lại hương vị mới mẻ cho thực khách. Dola Restaurant xin chân thành cảm ơn.
+                </div>
+                <div class="group-address">
+                    <div class="title">Cửa hàng chính</div>
+                    <ul>
+                        <li>
+                            <b>Địa chỉ:<span>70 Lữ Gia, phường 15, quận 11, TP.HCM</span></b>
+                        </li>
+                        <li>
+                            <b>Điện thoại: <a href="#">1900 6750</a></b>
+                        </li>
+                        <li>
+                            <b>Email: <a href="#">support@sapo.vn</a></b>
+                        </li>
+                    </ul>
+                    <a href="#" class="see-store">Hệ thống cửa hàng</a>
+                </div>
+            </div>
+            <div class="instruct">
+                <h4 class="title-menu">Hướng dẫn</h4>
+                <ul class="list-menu">
+                    <li><a href="#">Hướng dãn mua hàng</a></li>
+                    <li><a href="#">Hướng dãn thanh toán</a></li>
+                    <li><a href="#">Đăng ký thành viên</a></li>
+                    <li><a href="#">Hỗ trợ khách hàng</a></li>
+                </ul>
+            </div>
+            <div class="policy">
+                <h4 class="title-menu">Chính sách</h4>
+                <ul class="list-menu">
+                    <li><a href="#">Chính sách thành viên</a></li>
+                    <li><a href="#">Chính sách thanh toán</a></li>
+                    <li><a href="#">Hướng dãn mua hàng</a></li>
+                    <li><a href="#">Bảo mật thông tin cá nhân</a></li>
+                    <li><a href="#">Quà tặng tri ân</a></li>
+                </ul>
+            </div>
+            <div class="social-box">
+                <h4 class="title-menu">Mạng xã hội</h4>
+                <ul class="social">
+                    <li><a href="#"><img src="image/icon/zalo.svg" alt=""></a></li>
+                    <li><a href="#"><img src="image/icon/facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="image/icon/youtube.svg" alt=""></a></li>
+                </ul>
+                <h4 class="title-menu">Hình thức thanh toán</h4>
+                <ul class="thanhtoan">
+                    <li><a href="#"><img src="image/icon/payment_1.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/icon/payment_2.png" alt=""></a></li>
+                    <li><a href="#"><img src="image/icon/payment_3.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- button scroll to top design -->
+    <button id="toTop"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="home.js"></script>
+</body>
+</html>
